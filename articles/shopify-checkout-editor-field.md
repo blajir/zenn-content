@@ -3,7 +3,8 @@ title: "Shopify の Checkout UI extensions で設定可能なテキスト UI を
 emoji: "🛒"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["shopify"]
-published: false
+published: true
+publication_name: "kauche"
 ---
 
 ## はじめに
