@@ -199,12 +199,12 @@ Checkout UI extensions でアプリを作成するにあたって、つまずい
 
 - 複数パートナーアカウントを持っており、開発モードで異なるパートナーアカウントでログインした際に、ストア選択を切り替えられなくなった
   - `shopify auth logout` コマンドで一旦ログアウトする必要がある
-- デフォルトのチェックアウト画面要素の非表示
-  - デフォルトで表示される要素を非表示にしたい場合がありますが、現在の仕様ではこれは不可能でした([Github Issue](https://github.com/Shopify/ui-extensions/issues/1565))
+- チェックアウト画面のデフォルト要素は非表示にできない
+  - デフォルトで表示される要素を非表示にしたい場合があったが、現在の仕様では不可能でした([Github Issue](https://github.com/Shopify/ui-extensions/issues/1565))
 - 複数人で Checkout UI extensions アプリ開発する場合の `.gitignore` の設定
   - Shopify コミュニティの[この投稿](https://community.shopify.com/c/extensions/app-development-source-control-for-multiple-developers/m-p/2462572/highlight/true)が参考になりました
 
 ## 終わりに
-本記事では、テキスト表示やスタイルのカスタマイズができるアプリを構築するプロセスとともに、実際の開発で私自身がつまずいたポイントや、コミュニティの情報を参考に解決した事例についてご紹介しました。この記事が同じ課題に直面している方々の一助となり、よりスムーズな開発の手助けになれば幸いです。
+本記事では、Shopify で設定可能なテキスト UI を開発するプロセスとともに、Checkout UI extensions というニッチな技術に取り組む中で、私自身がつまずいたポイントやその解決方法についてご紹介しました。この記事が同じような課題に直面している方の参考となり、開発の手助けになれば幸いです。
 
 Checkout UI extensions は、仕様や機能が今後さらに改善されていく可能性があるので、今後のアップデートにも注目していきたいところです。
